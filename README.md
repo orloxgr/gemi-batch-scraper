@@ -13,8 +13,7 @@ Designed to extract company details (Status, KAD, Partners, Contact info) secure
 ## Installation
 
 1.  Install the [Tampermonkey](https://www.tampermonkey.net/) extension for Chrome/Edge/Firefox.
-2.  [**CLICK HERE TO INSTALL**](https://github.com/orloxgr/gemi-batch-scraper/raw/refs/heads/main/GEMI%20Scraper%20V4%20(Industrial%20-%20IndexedDB%20-%20Turbo)-4.0.0.user.js) 
-    *(Replace the link above with your actual Raw URL)*.
+2.  [**CLICK HERE TO INSTALL**](https://github.com/orloxgr/gemi-batch-scraper/raw/refs/heads/main/GEMI%20Scraper%20V4%20(Industrial%20-%20IndexedDB%20-%20Turbo)-4.0.0.user.js). 
 3.  Click **Install** when the Tampermonkey tab appears.
 
 ## How to Use
