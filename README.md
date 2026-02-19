@@ -26,9 +26,9 @@ Designed to extract company details (Status, KAD, Partners, Contact info) secure
     * *Interruption?* Just refresh the page. It will auto-resume.
 6.  **Merge** Put everything in a directory, for example c:\merge
 Open powercell in that directory and run:
-
+```powershell
 $files = Get-ChildItem "GEMI_Export_Part*.csv" | Sort-Object Name; Get-Content $files[0] | Set-Content "Merged_GEMI_Data.csv" -Encoding UTF8; $files | Select-Object -Skip 1 | ForEach-Object { Get-Content $_ | Select-Object -Skip 1 | Add-Content "Merged_GEMI_Data.csv" -Encoding UTF8 }; Write-Host "Done! Your data is in Merged_GEMI_Data.csv" -ForegroundColor Green
-
+```
 ## ⚠️ Legal & GDPR Disclaimer
 
 **Educational Purposes Only.**
